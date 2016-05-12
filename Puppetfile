@@ -48,13 +48,13 @@ mod 'staging',
 mod 'epel',
   :git => 'https://github.com/stahnma/puppet-module-epel.git'
 
-mod 'windows'
+mod 'windows',
   :git => 'https://github.com/puppetlabs/puppetlabs-windows.git'
 
-mod 'azure'
+mod 'azure',
   :git => 'https://github.com/puppetlabs/puppetlabs-azure.git'
 
-mod 'dsc'
+mod 'dsc',
   :git => 'https://github.com/puppetlabs/puppetlabs-dsc.git'
 
 ###############################################################################
