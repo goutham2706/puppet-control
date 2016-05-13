@@ -13,10 +13,9 @@ File { backup => 'main' }
 #}
 
 case $operatingsystem {
-  'windows':
-    Package {
-      provider => chocolatey,
-    }
+  'windows': {
+    Package { provider => chocolatey, }
+  }
 }
 
 hiera_include('roles')

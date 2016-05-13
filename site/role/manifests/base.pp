@@ -3,5 +3,5 @@
 #
 
 class role {
-  include profile:base
+  include profile::base
 }
